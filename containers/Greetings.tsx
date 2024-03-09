@@ -37,18 +37,24 @@ const Greetings = () => {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
+                        target="_blank"
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Veja meu portfólio</span>
                       </Button>
                     </div>
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <img style={{
+                    width: "400px",
+                    // height: "20rem",
+                    borderRadius: "100%",
+                    marginTop: "2rem"
+                  }} src="/img/icons/common/IMG_ERIKA_4.jpg" />
                 </Col>
               </Row>
             </div>

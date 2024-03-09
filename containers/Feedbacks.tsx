@@ -20,7 +20,7 @@ const Feedbacks = () => {
                 <h4 className="display-3 text-info">Our Clients Feedback</h4>
               </div>
             </div>
-            <Row className="g-3">
+            {/* <Row className="g-3">
               {feedbacks.map((data, i) => {
                 return (
                   <Col key={i} lg={6}>
@@ -28,7 +28,7 @@ const Feedbacks = () => {
                   </Col>
                 );
               })}
-            </Row>
+            </Row> */}
           </Container>
         </section>
       </Fade>

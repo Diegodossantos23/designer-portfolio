@@ -16,7 +16,11 @@ const Skills = () => {
             return (
               <Row className="my-5" key={index}>
                 <Col lg="6" className="order-2 order-lg-1">
-                  <DisplayLottie animationPath={section.lottieAnimationFile} />
+                  <img style={{
+                    width: "100%",
+                    height: "100%",
+                    borderRadius: "5px"
+                  }} src="/img/icons/common/IMG_ERIKA_3.jpg"/>
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
                   <h3 className="h3 mb-2">{section.title}</h3>
